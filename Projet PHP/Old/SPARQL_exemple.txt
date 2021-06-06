@@ -1,0 +1,9 @@
+select * where {
+?s rdf:type dbo:BasketballPlayer .
+?s dbp:nationality ?o .
+?s dbo:draftPick ?draftPick .
+?s dbo:draftRound ?draftRound .
+?s dbo:draftTeam	?draftTeam .
+?s  dbo:draftYear ?draftYear .
+filter (regex(?o,"French")) 
+} order  by asc(xsd:integer(?draftPick))

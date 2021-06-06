@@ -1,0 +1,109 @@
+body{
+    background: #8e8de0;
+}
+
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: #eee;
+    font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+th[scope="col"] {
+    background-color: #696969;
+    color: #fff;
+}
+
+th[scope="row"] {
+    background-color: #d7d9f2;
+}
+ul,ol,dl,p {
+    list-style: none;
+    font-size: 1.5rem;
+  }
+  
+  li, p {
+    list-style: none;
+    line-height: 1.5;
+  }
+  
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(230, 230, 230);
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: .8rem;
+}
+
+#container{
+    width:400px;
+    margin:0 auto;
+    margin-top:10%;
+}
+/* formulaire */
+form {
+    width:80%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+#container h1{
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+/* Style des inputs */
+input[type=text], input[type=password], input[type=email], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Style des boutons */
+input[type=submit] {
+    background-color: #3e3c94;
+    text-align: center;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+input[type=submit]:hover {
+    text-align: center;
+    background-color: white;
+    color: #8e8de0;
+    border: 1px solid #37368f;
+}
+
+a{
+    text-align: center;
+    color: rgb(17, 7, 7);
+    font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;   
+}
